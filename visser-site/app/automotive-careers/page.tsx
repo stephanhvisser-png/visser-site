@@ -50,13 +50,30 @@ export default function AutomotiveCareersPage() {
           and professional positioning for GCC and international opportunities.
         </p>
 
-        <p className="text-lg max-w-4xl text-gray-300">
+        <p className="text-lg max-w-4xl text-gray-300 mb-8">
           Modern AI tools can generate resumes in seconds. The difference is
           knowing what employers and hiring managers actually look for.
           With over three decades of automotive industry experience, I help
           professionals present their experience clearly, credibly, and
           professionally.
         </p>
+
+        <div className="flex gap-4">
+          <a
+            href="mailto:admin@visser.one"
+            className="px-6 py-3 rounded-xl bg-white text-black font-medium hover:bg-gray-200 transition"
+          >
+            Request Consultation
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/stephan2/"
+            target="_blank"
+            className="px-6 py-3 rounded-xl border border-gray-700 hover:border-gray-500 transition"
+          >
+            LinkedIn Profile
+          </a>
+        </div>
       </section>
 
       <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -78,6 +95,45 @@ export default function AutomotiveCareersPage() {
             </p>
           </div>
         ))}
+      </section>
+
+      <section className="mt-20 border-t border-gray-900 pt-16">
+        <h2 className="text-2xl font-semibold mb-4">
+          Built on
+        </h2>
+
+        <ul className="space-y-2 text-gray-300 mb-10">
+          <li>Quality</li>
+          <li>Honesty</li>
+          <li>Industry Expertise</li>
+        </ul>
+
+        <h2 className="text-3xl font-bold mb-6">
+          Ready to Improve Your Professional Presentation?
+        </h2>
+
+        <p className="text-gray-300 max-w-3xl mb-8">
+          Whether you are applying for GCC opportunities, preparing for a
+          leadership role, or improving your professional profile, I can help
+          you present your experience clearly and credibly.
+        </p>
+
+        <div className="flex gap-4">
+          <a
+            href="mailto:admin@visser.one"
+            className="px-6 py-3 rounded-xl bg-white text-black font-medium hover:bg-gray-200 transition"
+          >
+            Contact Me
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/stephan2/"
+            target="_blank"
+            className="px-6 py-3 rounded-xl border border-gray-700 hover:border-gray-500 transition"
+          >
+            Connect on LinkedIn
+          </a>
+        </div>
       </section>
     </main>
   );

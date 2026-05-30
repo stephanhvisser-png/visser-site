@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Stephan Visser | International Automotive Executive",
+  title: "Stephan Visser | Automotive Executive & Career Services",
   description:
-    "Executive leadership across global automotive, commercial vehicle and OEM operations.",
+    "International automotive executive leadership, GCC automotive expertise, and professional career services for automotive professionals.",
 };
 
 export default function RootLayout({

@@ -159,7 +159,7 @@ export default function AutomotiveCareersPage() {
           </a>
         </div>
 
-        <p className="text-sm text-gray-500 mt-20">
+        <p className="text-sm text-gray-400 mt-20">
           Career services are independently provided by Stephan Visser and are
           not affiliated with any current employer, manufacturer, dealership
           group, or automotive brand.
@@ -168,7 +168,7 @@ export default function AutomotiveCareersPage() {
         <div className="mt-6">
           <a
             href="/terms"
-            className="text-sm text-gray-500 hover:text-gray-300 transition"
+            className="text-sm text-gray-400 hover:text-gray-300 transition"
           >
             Terms & Conditions
           </a>

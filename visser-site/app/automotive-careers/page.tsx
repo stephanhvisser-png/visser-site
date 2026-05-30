@@ -61,7 +61,7 @@ export default function AutomotiveCareersPage() {
         <div className="flex gap-4">
           <a
             href="mailto:admin@visser.one"
-            className="px-7 py-3.5 rounded-xl border border-gray-700 hover:border-gray-500 hover:-translate-y-0.5 transition-all duration-300"
+            className="px-7 py-3.5 rounded-xl bg-white text-black font-medium hover:bg-gray-200 hover:-translate-y-0.5 transition-all duration-300"
           >
             Request Consultation
           </a>
@@ -69,7 +69,7 @@ export default function AutomotiveCareersPage() {
           <a
             href="https://www.linkedin.com/in/stephan2/"
             target="_blank"
-            className="px-7 py-3.5 rounded-xl bg-white text-black font-medium hover:bg-gray-200 hover:-translate-y-0.5 transition-all duration-300"
+            className="px-7 py-3.5 rounded-xl border border-gray-700 hover:border-gray-500 hover:-translate-y-0.5 transition-all duration-300"
           >
             LinkedIn Profile
           </a>
@@ -80,7 +80,7 @@ export default function AutomotiveCareersPage() {
         {services.map((service) => (
           <div
             key={service.title}
-            
+            className="border border-gray-800 rounded-2xl p-6 bg-black/30 hover:border-gray-700 hover:-translate-y-1 transition-all duration-300"
           >
             <h2 className="text-2xl font-semibold mb-2">
               {service.title}
@@ -97,15 +97,39 @@ export default function AutomotiveCareersPage() {
         ))}
       </section>
 
+      <section className="mt-20">
+        <h2 className="text-3xl font-bold mb-6">
+          Why Work With Me
+        </h2>
+
+        <div className="grid md:grid-cols-2 gap-6 text-gray-300">
+          <div className="border border-gray-800 rounded-2xl p-6 bg-black/30">
+            30+ years of automotive industry experience across GCC and international markets.
+          </div>
+
+          <div className="border border-gray-800 rounded-2xl p-6 bg-black/30">
+            Executive leadership exposure across OEM, commercial vehicle, and dealer environments.
+          </div>
+
+          <div className="border border-gray-800 rounded-2xl p-6 bg-black/30">
+            Real-world understanding of what hiring managers and automotive executives actually look for.
+          </div>
+
+          <div className="border border-gray-800 rounded-2xl p-6 bg-black/30">
+            Human expertise enhanced by modern AI tools — not generic AI-generated resumes.
+          </div>
+        </div>
+      </section>
+
       <section className="mt-20 border-t border-gray-900 pt-16">
         <h2 className="text-2xl font-semibold mb-4">
           Built on
         </h2>
 
-        <ul className="flex flex-row items-center gap-6 text-gray-300 mb-10">
-          <li className="whitespace-nowrap">Quality</li>
-            <li className="whitespace-nowrap">Honesty</li>
-            <li className="whitespace-nowrap">Industry Expertise</li>
+        <ul className="text-gray-300 mb-10 space-y-2">
+          <li>Quality</li>
+          <li>Honesty</li>
+          <li>Industry Expertise</li>
         </ul>
 
         <h2 className="text-3xl font-bold mb-6">
@@ -134,4 +158,22 @@ export default function AutomotiveCareersPage() {
             Connect on LinkedIn
           </a>
         </div>
+
+        <p className="text-sm text-gray-500 mt-20">
+          Career services are independently provided by Stephan Visser and are
+          not affiliated with any current employer, manufacturer, dealership
+          group, or automotive brand.
+        </p>
+
+        <div className="mt-6">
+          <a
+            href="/terms"
+            className="text-sm text-gray-500 hover:text-gray-300 transition"
+          >
+            Terms & Conditions
+          </a>
+        </div>
       </section>
+    </main>
+  );
+}

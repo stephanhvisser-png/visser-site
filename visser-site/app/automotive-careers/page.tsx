@@ -126,10 +126,10 @@ export default function AutomotiveCareersPage() {
           Built on
         </h2>
 
-        <ul className="text-gray-300 mb-10 space-y-2">
-          <li>Quality</li>
-          <li>Honesty</li>
-          <li>Industry Expertise</li>
+        <ul className="flex flex-row flex-wrap gap-6 text-gray-300 mb-10">
+        <li className="inline-block">Quality</li>
+        <li className="inline-block">Honesty</li>
+        <li className="inline-block">Industry Expertise</li>
         </ul>
 
         <h2 className="text-3xl font-bold mb-6">

@@ -61,7 +61,7 @@ export default function AutomotiveCareersPage() {
         <div className="flex gap-4">
           <a
             href="mailto:admin@visser.one"
-            className="px-6 py-3 rounded-xl bg-white text-black font-medium hover:bg-gray-200 transition"
+            className="px-7 py-3.5 rounded-xl border border-gray-700 hover:border-gray-500 hover:-translate-y-0.5 transition-all duration-300"
           >
             Request Consultation
           </a>
@@ -69,7 +69,7 @@ export default function AutomotiveCareersPage() {
           <a
             href="https://www.linkedin.com/in/stephan2/"
             target="_blank"
-            className="px-6 py-3 rounded-xl border border-gray-700 hover:border-gray-500 transition"
+            className="px-7 py-3.5 rounded-xl bg-white text-black font-medium hover:bg-gray-200 hover:-translate-y-0.5 transition-all duration-300"
           >
             LinkedIn Profile
           </a>
@@ -80,7 +80,7 @@ export default function AutomotiveCareersPage() {
         {services.map((service) => (
           <div
             key={service.title}
-            className="border border-gray-800 rounded-2xl p-6 bg-black/30"
+            
           >
             <h2 className="text-2xl font-semibold mb-2">
               {service.title}
@@ -102,10 +102,10 @@ export default function AutomotiveCareersPage() {
           Built on
         </h2>
 
-        <ul className="space-y-2 text-gray-300 mb-10">
-          <li>Quality</li>
-          <li>Honesty</li>
-          <li>Industry Expertise</li>
+        <ul className="flex flex-row items-center gap-6 text-gray-300 mb-10">
+          <li className="whitespace-nowrap">Quality</li>
+            <li className="whitespace-nowrap">Honesty</li>
+            <li className="whitespace-nowrap">Industry Expertise</li>
         </ul>
 
         <h2 className="text-3xl font-bold mb-6">
@@ -121,7 +121,7 @@ export default function AutomotiveCareersPage() {
         <div className="flex gap-4">
           <a
             href="mailto:admin@visser.one"
-            className="px-6 py-3 rounded-xl bg-white text-black font-medium hover:bg-gray-200 transition"
+            className="px-7 py-3.5 rounded-xl bg-white text-black font-medium hover:bg-gray-200 hover:-translate-y-0.5 transition-all duration-300"
           >
             Contact Me
           </a>
@@ -129,12 +129,9 @@ export default function AutomotiveCareersPage() {
           <a
             href="https://www.linkedin.com/in/stephan2/"
             target="_blank"
-            className="px-6 py-3 rounded-xl border border-gray-700 hover:border-gray-500 transition"
+            className="px-7 py-3.5 rounded-xl border border-gray-700 hover:border-gray-500 hover:-translate-y-0.5 transition-all duration-300"
           >
             Connect on LinkedIn
           </a>
         </div>
       </section>
-    </main>
-  );
-}
